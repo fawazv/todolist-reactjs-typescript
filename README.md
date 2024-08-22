@@ -17,7 +17,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/todolist-app.git](https://github.com/fawazv/todolist-reactjs-typescript.git
+git clone https://github.com/fawazv/todolist-reactjs-typescript.git
 
 cd todolist-reactjs-typescript
 

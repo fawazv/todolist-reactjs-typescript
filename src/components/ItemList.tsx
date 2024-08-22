@@ -19,7 +19,7 @@ export const ItemList = ({ items, setItems }: ItemList) => {
       <p>{data.title}</p>
       <Button
         onClick={() => handleDelete(data.id)}
-        className="px-1 py-1 bg-red-500 rounded-lg w-fit"
+        className="px-1 py-1 bg-red-500 rounded-lg w-14"
       >
         Delete
       </Button>

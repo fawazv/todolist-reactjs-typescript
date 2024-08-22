@@ -1,7 +1,8 @@
-React TypeScript To-Do List App
+# React TypeScript To-Do List App
+
 A simple and beginner-friendly To-Do List application built using React and TypeScript, bundled with Vite, and styled with Tailwind CSS.
 
-Features
+# Features
 Add tasks: Easily add new tasks to your list.
 Mark as complete: Mark tasks as completed or uncompleted.
 Delete tasks: Remove tasks from the list.

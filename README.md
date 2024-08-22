@@ -1,50 +1,54 @@
-# React + TypeScript + Vite
+React TypeScript To-Do List App
+A simple and beginner-friendly To-Do List application built using React and TypeScript, bundled with Vite, and styled with Tailwind CSS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Add tasks: Easily add new tasks to your list.
+Mark as complete: Mark tasks as completed or uncompleted.
+Delete tasks: Remove tasks from the list.
+Responsive design: Mobile-friendly UI.
 
-Currently, two official plugins are available:
+Getting Started
+Prerequisites
+Node.js (>= 14.x)
+npm (>= 6.x) or yarn (>= 1.x)
+Installation
+Clone the repository:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+bash
+Copy code
+git clone https://github.com/yourusername/todolist-app.git](https://github.com/fawazv/todolist-reactjs-typescript.git
+cd todolist-reactjs-typescript
 
-## Expanding the ESLint configuration
+Install dependencies:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+bash
+Copy code
+npm install
+# or
+yarn install
+Start the development server:
 
-- Configure the top-level `parserOptions` property like this:
+bash
+Copy code
+npm run dev
+# or
+yarn dev
+Open the app in your browser at http://localhost:3000.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Building for Production
+To create a production build, run:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+bash
+Copy code
+npm run build
+# or
+yarn build
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Technologies Used
+React - A JavaScript library for building user interfaces.
+TypeScript - A typed superset of JavaScript that compiles to plain JavaScript.
+Vite - A fast build tool for modern web projects.
+Tailwind CSS - A utility-first CSS framework for rapidly building custom designs.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
